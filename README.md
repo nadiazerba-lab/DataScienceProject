@@ -1,6 +1,7 @@
-# DataScienceProject
-Data science project on Roman data about pottery
-
+# DataScienceProject on Roman data about pottery
+Repository Structure
+	• RomanDataScienceProject.ipynb was the first release
+	- **RomanProjectReview.ipynb** is the latest version reviewed 
 Motivation
 This project aims to predict the shape of archaeological pottery fragments based on measurable attributes such as:
 	• exterior_diam
@@ -20,9 +21,6 @@ The project uses the following Python libraries:
 		○ accuracy_score, classification_report: For model evaluation.
 Additional libraries for visualization :
 	• matplotlib: For plotting decision tree and thresholds.
-
-Repository Structure
-	• RomanDataScienceProject.ipynb
 Main script for loading data, preprocessing, training a Decision Tree model, evaluating performance, and plot .
 	• README.md
 Documentation of the project, including motivation, libraries, results, and acknowledgments.
@@ -31,7 +29,7 @@ Data are from https://projectmercury.eu/datasets/<img width="282" height="19" al
 Contains pottery fragment data with columns: exterior_diam, inside_diam, chronology, rim_h, rim_w, site, and shape.
 
 Summary of Results
-	• Model Used: Decision Tree Classifier
+	• Model Used: Decision Tree 
 	• Accuracy: ~85% on the test set (varies by dataset)
 	• Insights: 
 		○ exterior_diam and inside_diam were the most influential features.
